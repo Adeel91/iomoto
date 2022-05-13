@@ -10,7 +10,6 @@ export const SearchInputWrapper = styled("div")(({ theme }) => ({
     border: "1px solid #ccc",
     color: "#333",
     fontSize: "15px",
-    width: "360px",
     marginBottom: "30px",
   },
 }));
@@ -18,5 +17,9 @@ export const SearchInputWrapper = styled("div")(({ theme }) => ({
 export const SearchStyle = styled("div")(() => ({
   position: "relative",
   zIndex: 2,
-  width: "360px",
+  width: "100%",
+}));
+
+export const SearchInputStyle = styled("input")(() => ({
+  width: "100%",
 }));

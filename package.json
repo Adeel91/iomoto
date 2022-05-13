@@ -8,9 +8,6 @@
     "redux-saga",
     "webpack"
   ],
-  "engines": {
-    "node": "12.x"
-  },
   "license": "MIT",
   "main": "index.js",
   "homepage": "./",
